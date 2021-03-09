@@ -1,10 +1,10 @@
 ---
-title: This is a Test
+title: New Test
 author: Daniel
 date: 2020-03-09T11:50:02.255Z
 thumbnail: /images/cuub.jpg
 ---
 
-# This is just a test post
+# New Test
 
 *Let's see what happens.*
