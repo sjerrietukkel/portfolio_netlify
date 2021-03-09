@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 import './Navbar.css';
 import { H1, Main } from './styled.js'
 
