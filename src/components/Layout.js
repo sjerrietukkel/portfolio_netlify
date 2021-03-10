@@ -1,7 +1,4 @@
-
 import React from "react"
-
-import "./components.css"
 
 const Layout = ({children}) => {
     return (

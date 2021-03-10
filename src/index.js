@@ -3,10 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Route} from "react-router-dom"
+import Post from "./pages/post"
+import Home from "./pages/home"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+     <Router>
+        <div>
+            <Route exact path="/post/:id" render={props => <Post {...props} />} />
+            <Route exact path="/" component={Home} />
+            <App />
+        </div>
+    </Router>, 
   </React.StrictMode>,
   document.getElementById('root')
 );

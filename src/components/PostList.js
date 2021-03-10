@@ -1,5 +1,6 @@
 import React from "react"
 import Markdown from "react-markdown"
+import { Link }  from "react-router-dom"
 import postlist from "../posts.json"
 
 const PostList = () => {
@@ -18,6 +19,7 @@ const PostList = () => {
                             </div>
                             <small>Published on {post.date} by {post.author}</small>
                             <Markdown source={excerptList[i]} escapeHtml={false} />
+                            <small><Link className="links" to={`/post/${post.id}`}>Read more</Link></small>
                         </div>
                     )
                 })
