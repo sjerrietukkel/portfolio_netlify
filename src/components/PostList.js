@@ -7,8 +7,7 @@ const PostList = () => {
         return post.content.split(" ").slice(0, 20).join(" ") + "..."
     })
     return (
-        <div className="postlist">
-            <h1 className="title">All Posts</h1>
+        <div className="postlist d-flex justify-content-center flex-wrap">
             {postlist.length && 
                 postlist.map((post, i) => {
                     return (
@@ -18,7 +17,6 @@ const PostList = () => {
                                 <h2 className="post-title">{post.title}</h2>
                             </div>
                             <small>Published on {post.date} by {post.author}</small>
-                            <hr/>
                             <Markdown source={excerptList[i]} escapeHtml={false} />
                         </div>
                     )

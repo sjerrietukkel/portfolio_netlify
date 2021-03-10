@@ -21,3 +21,10 @@ code {
 * {
   color: white;
 }
+
+.post-card {
+  background-color: #EDCA4E;
+  border-radius: 8px;
+  max-width: 320px;
+  margin: 8px;
+}
