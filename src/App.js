@@ -1,6 +1,4 @@
 import './App.css';
-import Navbar from './containers/Navbar/Navbar';
-import PostList from './components/PostList'
 
 function App() {
   return (
