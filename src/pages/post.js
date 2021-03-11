@@ -19,6 +19,8 @@ const Post = (props) => {
             fetchedPost.date = post.date ? post.date : "No date given"
             fetchedPost.author = post.author ? post.author : "No author given"
             fetchedPost.content = post.content ? post.content : "No content given"
+            fetchedPost.duration = post.duration ? post.duration : "No duration given"
+            fetchedPost.description = post.description ? post.description : "No description given"
             postExists = true
         }
     })
@@ -32,20 +34,14 @@ const Post = (props) => {
                     <MetaBlock className=" d-flex flex-column">
                         <h2>{fetchedPost.title}</h2>
                         <small>Published on {fetchedPost.date} by {fetchedPost.author}</small>
-                        <h2>Screenshot Mockup</h2>
-                        <small>Opdrachtgever</small>
-                        <small>Duration</small>
-                        <small>Technologie/Technieken</small>
-                        <small>Design Challenge / Casus</small>
-                        <small>Datum</small>
+                        {/* <img className="thumbnail" width={80} src={fetchedPost.thumbnail} alt="Mockup"/> */}
+                        <small>{fetchedPost.opdrachtgever}</small>
+                        <h2>{fetchedPost.duration}</h2>
+                        <small>{fetchedPost.technology}</small>
+                        <small>{fetchedPost.description}</small>
                         <small>Link / Github</small>
                     </MetaBlock>     
                     <PostContent>
-                        <Markdown source={fetchedPost.content} escapeHtml={false} />
-                        <Markdown source={fetchedPost.content} escapeHtml={false} />
-                        <Markdown source={fetchedPost.content} escapeHtml={false} />
-                        <Markdown source={fetchedPost.content} escapeHtml={false} />
-                        <Markdown source={fetchedPost.content} escapeHtml={false} />
                         <Markdown source={fetchedPost.content} escapeHtml={false} />
                     </PostContent>   
                 </div>    
