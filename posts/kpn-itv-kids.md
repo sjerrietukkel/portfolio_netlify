@@ -1,6 +1,6 @@
 ---
 title: KPN iTV Kids
-description: "Onderzoek en conceptontwikkeling naar de kijkervaring van kinderen "
+description: "Onderzoek en conceptontwikkeling naar de kijkervaring van kinderen "
 author: Daniel van der Schuur
 opdrachtgever: KPN
 date: 2021-03-11T16:37:53.680Z
