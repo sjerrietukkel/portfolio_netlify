@@ -3,6 +3,7 @@ import { Redirect } from "react-router-dom"
 import Markdown from "react-markdown"
 import Layout from "../components/Layout.js"
 import postlist from "../posts.json"
+import { PostContent, MetaBlock } from "./styled/Post"
 
 
 const Post = (props) => {
@@ -26,11 +27,28 @@ const Post = (props) => {
     }
     return (
         <Layout>
-            <div className="post">
-                <h2>{fetchedPost.title}</h2>
-                <small>Published on {fetchedPost.date} by {fetchedPost.author}</small>
-                <hr/>
-                <Markdown source={fetchedPost.content} escapeHtml={false} />
+            <div className="post d-flex  justify-content-center ">
+                <div  className=" d-flex flex-column">
+                    <MetaBlock className=" d-flex flex-column">
+                        <h2>{fetchedPost.title}</h2>
+                        <small>Published on {fetchedPost.date} by {fetchedPost.author}</small>
+                        <h2>Screenshot Mockup</h2>
+                        <small>Opdrachtgever</small>
+                        <small>Duration</small>
+                        <small>Technologie/Technieken</small>
+                        <small>Design Challenge / Casus</small>
+                        <small>Datum</small>
+                        <small>Link / Github</small>
+                    </MetaBlock>     
+                    <PostContent>
+                        <Markdown source={fetchedPost.content} escapeHtml={false} />
+                        <Markdown source={fetchedPost.content} escapeHtml={false} />
+                        <Markdown source={fetchedPost.content} escapeHtml={false} />
+                        <Markdown source={fetchedPost.content} escapeHtml={false} />
+                        <Markdown source={fetchedPost.content} escapeHtml={false} />
+                        <Markdown source={fetchedPost.content} escapeHtml={false} />
+                    </PostContent>   
+                </div>    
             </div>
         </Layout>
     )
