@@ -53,3 +53,12 @@
   src: local('Goldplay_Bold'), url(./fonts/Goldplay_Bold.otf) format('opentype');
   font-weight: 800;
 }
+
+.logo {
+  width: auto;
+  height: 50px;
+}
+
+.nav-max {
+  max-width: 1300px;
+}
