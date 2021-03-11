@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 } */
+@font-face {
+  font-family: 'Goldplay';
+  src: local('Goldplay_SemiBold'), url(./fonts/Goldplay_SemiBold.otf) format('opentype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Goldplay';
+  src: local('Goldplay_Regular'), url(./fonts/Goldplay_Regular.otf) format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Goldplay';
+  src: local('Goldplay_Bold'), url(./fonts/Goldplay_Bold.otf) format('opentype');
+  font-weight: 800;
+}

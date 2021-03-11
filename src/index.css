@@ -20,6 +20,9 @@ code {
 
 * {
   color: white;
+  text-decoration: none !important;
+  font-family: Goldplay, serif;
+  font-weight: 600;
 }
 
 .post-card {
@@ -27,4 +30,8 @@ code {
   border-radius: 8px;
   max-width: 320px;
   margin: 8px;
+}
+
+h3 {
+  font-weight: 600;
 }
