@@ -21,6 +21,8 @@ const Post = (props) => {
             fetchedPost.content = post.content ? post.content : "No content given"
             fetchedPost.duration = post.duration ? post.duration : "No duration given"
             fetchedPost.description = post.description ? post.description : "No description given"
+            fetchedPost.opdrachtgever = post.opdrachtgever ? post.opdrachtgever : "No opdrachtgever given"
+            fetchedPost.mockup = post.mockup ? post.mockup : "No mockup given"
             postExists = true
         }
     })
@@ -34,9 +36,9 @@ const Post = (props) => {
                     <MetaBlock className=" d-flex flex-column">
                         <h2>{fetchedPost.title}</h2>
                         <small>Published on {fetchedPost.date} by {fetchedPost.author}</small>
-                        {/* <img className="thumbnail" width={80} src={fetchedPost.thumbnail} alt="Mockup"/> */}
+                        <img className="thumbnail" width={80} src={fetchedPost.mockup} alt="Mockup"/>
                         <small>{fetchedPost.opdrachtgever}</small>
-                        <h2>{fetchedPost.duration}</h2>
+                        <small>{fetchedPost.duration}</small>
                         <small>{fetchedPost.technology}</small>
                         <small>{fetchedPost.description}</small>
                         <small>Link / Github</small>
