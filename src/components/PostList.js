@@ -14,7 +14,7 @@ const PostList = () => {
                     return (
                         <div key={i} className="post-card">
                              <div className="img-container">
-                                {post.thumbnail && <img className="thumbnail" width={80} src={post.thumbnail} alt=""/> }
+                                {post.thumbnail && <img className="thumbnail" src={post.thumbnail} alt=""/> }
                                 <h2 className="post-title">{post.title}</h2>
                             </div>
                             <small>Published on {post.date} by {post.author}</small>

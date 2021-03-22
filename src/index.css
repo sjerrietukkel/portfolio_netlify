@@ -28,10 +28,15 @@ code {
 .post-card {
   background-color: #EDCA4E;
   border-radius: 8px;
-  max-width: 320px;
+  width: 100%;
   margin: 8px;
 }
 
 h2, h3, h4 {
   font-weight: 600;
+}
+
+.thumbnail {
+  width: 100%;
+  max-width: 750px;
 }
