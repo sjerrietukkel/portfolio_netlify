@@ -1,13 +1,13 @@
 ---
-title: Coach Boop
-description: Website for Coach Boop
+title: Huisarrest
+description: Concept & development online escape room
 author: Daniel van der Schuur
-opdrachtgever: Boop
+opdrachtgever: Huisarrest
 date: 2021-03-11T22:37:12.225Z
 duration: 3 weken
 technology: Netlify React
-thumbnail: /images/ds_logo.png
-mockup: /images/cuub.jpeg
+thumbnail: /images/rotato-snapshot3.png
+mockup: /images/rotato-snapshot3.png
 ---
 # Hey
 
