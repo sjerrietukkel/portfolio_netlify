@@ -18,7 +18,7 @@ const PostList = () => {
                                 {post.thumbnail && <img className="thumbnail" src={post.thumbnail} alt=""/> }
                             </div>
                             {/* <small>Published on {post.date} by {post.author}</small> */}
-                            {/* <Markdown source={excerptList[i]} escapeHtml={false} /> */}
+                            <Markdown source={excerptList[i]} escapeHtml={false} />
                             <div className="d-flex flex-column">
                                 <h2 className="post-title">{post.title}</h2>
                                 <div>
