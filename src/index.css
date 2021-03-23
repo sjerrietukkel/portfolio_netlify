@@ -21,7 +21,7 @@ code {
 * {
   color: white;
   text-decoration: none !important;
-  font-family: Goldplay, serif;
+  /* font-family: Goldplay, serif; */
   font-weight: 400;
 }
 
@@ -39,4 +39,24 @@ h2, h3, h4 {
 .thumbnail {
   width: 100%;
   max-width: 750px;
+}
+
+footer {
+  margin-top: 32px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Goldplay, serif;
+}
+
+p {
+  font-family: Poppins, serif;
+}
+
+.thumbnail {
+  max-width: 650px;
+}
+
+main {
+  max-width: 1600px;
 }

@@ -2,6 +2,7 @@ import React from "react"
 import Markdown from "react-markdown"
 import { Link }  from "react-router-dom"
 import postlist from "../posts.json"
+import { Postcard, PostDescription } from "./styled/Postcard"
 
 const PostList = () => {
     const excerptList = postlist.map(post => {
@@ -12,15 +13,23 @@ const PostList = () => {
             {postlist.length && 
                 postlist.map((post, i) => {
                     return (
-                        <div key={i} className="post-card">
+                        <Postcard key={i} className="post-card d-flex flex-row">
                              <div className="img-container">
                                 {post.thumbnail && <img className="thumbnail" src={post.thumbnail} alt=""/> }
-                                <h2 className="post-title">{post.title}</h2>
                             </div>
-                            <small>Published on {post.date} by {post.author}</small>
-                            <Markdown source={excerptList[i]} escapeHtml={false} />
-                            <small><Link className="links" to={`/post/${post.id}`}>Read more</Link></small>
-                        </div>
+                            {/* <small>Published on {post.date} by {post.author}</small> */}
+                            {/* <Markdown source={excerptList[i]} escapeHtml={false} /> */}
+                            <div className="d-flex flex-column">
+                                <h2 className="post-title">{post.title}</h2>
+                                <div>
+                                    <small>{post.opdrachtgever}</small>
+                                    <small> | </small>
+                                    <small>{post.duration}</small>
+                                </div>    
+                                <PostDescription>{post.description}</PostDescription>
+                                <small><Link className="links" to={`/post/${post.id}`}>Read more</Link></small>
+                            </div>
+                        </Postcard>
                     )
                 })
             }

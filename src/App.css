@@ -16,6 +16,12 @@
   font-weight: 800;
 }
 
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins-Regular'), url(./fonts/Poppins-Regular.ttf) format('truetype');
+  font-weight: 500;
+}
+
 .logo {
   width: auto;
   height: 50px;

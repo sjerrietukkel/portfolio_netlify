@@ -23,6 +23,7 @@ const Post = (props) => {
             fetchedPost.description = post.description ? post.description : "No description given"
             fetchedPost.opdrachtgever = post.opdrachtgever ? post.opdrachtgever : "No opdrachtgever given"
             fetchedPost.mockup = post.mockup ? post.mockup : "No mockup given"
+            fetchedPost.technology = post.technology ? post.technology : "No technology given"
             postExists = true
         }
     })
@@ -39,7 +40,6 @@ const Post = (props) => {
                         <img className="thumbnail" width={80} src={fetchedPost.mockup} alt="Mockup"/>
                         <small>{fetchedPost.opdrachtgever}</small>
                         <small>{fetchedPost.duration}</small>
-                        <small>{fetchedPost.technology}</small>
                         <small>{fetchedPost.description}</small>
                         <small>Link / Github</small>
                     </MetaBlock>     
