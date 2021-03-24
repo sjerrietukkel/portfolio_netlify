@@ -77,3 +77,22 @@ a {
   font-family: Goldplay, serif;
   font-weight: 800;
 }
+
+.post-title {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.hero {
+  width: 100vw;
+  height: 700px;
+  display: flex;
+  background-image: url('./img/hero_background_2.svg');
+  background-size: cover;
+  z-index: -100;
+  overflow: visible;
+}
+
+.about > h3, .about > p {
+  color: #181b31;
+}

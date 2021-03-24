@@ -11,7 +11,7 @@ class Header extends React.Component {
                     <div>
                         <Link className="links" to="/"><img src={logo} alt="Logo" className="logo" /></Link>
                     </div>
-                    <div className="d-flex">
+                    <div className="d-flex header-links">
                         <Link className="links" to="/about"><NavLink>About</NavLink></Link>
                         <Link className="links" to="/"><NavLink>Cases</NavLink></Link>
                         <Link className="links" to="/"><NavLink>Contact</NavLink></Link>
