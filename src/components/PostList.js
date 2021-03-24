@@ -27,7 +27,7 @@ const PostList = () => {
                                     <small>{post.duration}</small>
                                 </div>    
                                 <PostDescription>{post.description}</PostDescription>
-                                <small><Link className="links" to={`/post/${post.id}`}>Read more</Link></small>
+                                <h4 className="button-link"><Link className="links" to={`/post/${post.id}`}>Read more</Link></h4>
                             </div>
                         </Postcard>
                     )

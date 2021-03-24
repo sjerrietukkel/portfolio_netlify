@@ -60,3 +60,20 @@ p {
 main {
   max-width: 1600px;
 }
+
+.button-link {
+  background-color: white;
+  color: black !important;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 18px;
+  width: 150px;
+  padding: 10px;
+
+}
+
+a {
+  color: black;
+  font-family: Goldplay, serif;
+  font-weight: 800;
+}
