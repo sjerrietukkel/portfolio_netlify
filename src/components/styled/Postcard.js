@@ -5,6 +5,11 @@ export const Postcard = styled.div`
     border-radius: 8px;
     width: 100%;
     margin: 16px;
+    flex-direction: row;
+    @media (max-width: 950px) {
+        flex-direction: column;
+        padding: 20px;
+    }
     /* box-shadow: 1px 1px 9px 1px rgba(237,202,78,0.63);
     -webkit-box-shadow: 1px 1px 9px 1px rgba(237,202,78,0.63);
     -moz-box-shadow: 1px 1px 9px 1px rgba(237,202,78,0.63); */

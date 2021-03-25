@@ -13,7 +13,7 @@ const PostList = () => {
             {postlist.length && 
                 postlist.map((post, i) => {
                     return (
-                        <Postcard key={i} className="post-card d-flex flex-row py-8">
+                        <Postcard key={i} className="post-card d-flex py-8">
                              <div className="img-container">
                                 {post.thumbnail && <img className="thumbnail" src={post.thumbnail} alt=""/> }
                             </div>
