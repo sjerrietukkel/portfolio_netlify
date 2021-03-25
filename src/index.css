@@ -93,6 +93,32 @@ a {
   overflow: visible;
 }
 
+.about {
+  margin-bottom: 40px;
+}
+
 .about > h3, .about > p {
   color: #181b31;
 }
+
+.socials {
+  padding: 5px 15px;
+  margin-right: 5px;
+  border-radius: 100px;
+}
+
+.socials > a {
+  color: white;
+}
+
+.github {
+  background-color: #25292e;
+}
+
+.linkedin {
+  background-color: #3772ac;
+}
+.social-row {
+  display: flex;
+  flex-direction: row;
+} 
