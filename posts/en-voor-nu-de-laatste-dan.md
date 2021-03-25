@@ -1,7 +1,7 @@
 ---
 title: KPN iTV Kids
-dot1: "Onderzoek en conceptontwikkeling naar de kijkervaring van kinderen "
-dot2: "UX Research "
+dot1: Bevorderen kijkervaring kinderen
+dot2: UX Research & Concept
 dot3: Native smart TV app
 description: "Onderzoek en conceptontwikkeling naar de kijkervaring van kinderen "
 author: Daniel van der Schuur
