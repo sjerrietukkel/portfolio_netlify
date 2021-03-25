@@ -93,6 +93,15 @@ a {
   /* overflow-x: hidden; */
 }
 
+@media (max-width: 950px) {
+  .hero {
+    height: 800px
+  }
+  .about {
+    margin: 16px;
+  }
+}
+
 .about {
   margin-bottom: 40px;
 }
