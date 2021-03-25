@@ -80,6 +80,9 @@ const getPosts = () => {
                 post = {
                     id: timestamp,
                     title: metadata.title ? metadata.title : "No title given",
+                    dot1: metadata.dot1 ? metadata.dot1 : "No Dot1 Given",
+                    dot2: metadata.dot2 ? metadata.dot2 : "No Dot2 Given",
+                    dot3: metadata.dot3 ? metadata.dot3 : "No Dot3 Given",
                     author: metadata.author ? metadata.author : "No author given",
                     date: publishedDate ? publishedDate : "No date given",
                     time: parsedDate["time"],

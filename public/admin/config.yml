@@ -14,6 +14,9 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Dot1", name: "dot1", widget: "string"}
+      - {label: "Dot2", name: "dot2", widget: "string"}
+      - {label: "Dot3", name: "dot3", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Opdrachtgever", name: "opdrachtgever", widget: "string"}

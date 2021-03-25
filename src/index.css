@@ -90,7 +90,7 @@ a {
   background-image: url('./img/hero_background_2.svg');
   background-size: cover;
   z-index: -100;
-  overflow: visible;
+  /* overflow-x: hidden; */
 }
 
 .about {

@@ -26,7 +26,9 @@ const PostList = () => {
                                     <small> | </small>
                                     <small>{post.duration}</small>
                                 </div>    
-                                <PostDescription>{post.description}</PostDescription>
+                                <PostDescription>{post.dot1}</PostDescription>
+                                <PostDescription>{post.dot2}</PostDescription>
+                                <PostDescription>{post.dot3}</PostDescription>
                                 <h4 className="button-link"><Link className="links" to={`/post/${post.id}`}>Read more</Link></h4>
                             </div>
                         </Postcard>
