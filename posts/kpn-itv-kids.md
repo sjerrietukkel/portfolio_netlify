@@ -1,9 +1,12 @@
 ---
 title: KPN Multiskill Tool
+dot1: Increasing Agile workflow
+dot2: Dashboard design
+dot3: UX Research
 description: Conceptontwikkeling voor het bevorderen van de agile way of working
 author: Daniel van der Schuur
 opdrachtgever: KPN
-date: 2021-03-11T16:37:53.680Z
+date: 2021-03-24T16:37:53.680Z
 duration: 6 Maanden
 technology: UX
 thumbnail: /images/rotato-snapshot2.png
