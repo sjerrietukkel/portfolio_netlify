@@ -1,9 +1,12 @@
 ---
 title: KPN iTV Kids
-description: "Onderzoek en conceptontwikkelingnaar de kijkervaring van kinderen "
+dot1: "Onderzoek en conceptontwikkeling naar de kijkervaring van kinderen "
+dot2: "UX Research "
+dot3: Native smart TV app
+description: "Onderzoek en conceptontwikkeling naar de kijkervaring van kinderen "
 author: Daniel van der Schuur
 opdrachtgever: KPN
-date: 2021-01-29T14:29:00.097Z
+date: 2021-03-25T15:13:46.535Z
 duration: 6 Maanden
 technology: UX
 thumbnail: /images/rotato-snapshot.png
