@@ -51,4 +51,5 @@ export const Postcard = styled.div`
 
 export const PostDescription = styled.p`
     font-size: 20px;
+    margin: 0;
 `;

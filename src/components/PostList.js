@@ -21,14 +21,22 @@ const PostList = () => {
                             {/* <Markdown source={excerptList[i]} escapeHtml={false} /> */}
                             <div className="d-flex flex-column my-4">
                                 <h2 className="post-title">{post.title}</h2>
-                                <div>
+                                {/* <div>
                                     <small>{post.opdrachtgever}</small>
                                     <small> | </small>
                                     <small>{post.duration}</small>
-                                </div>    
-                                <PostDescription>{post.dot1}</PostDescription>
-                                <PostDescription>{post.dot2}</PostDescription>
-                                <PostDescription>{post.dot3}</PostDescription>
+                                </div>     */}
+                                <ul>
+                                    <li>
+                                        <PostDescription> {post.dot1}</PostDescription>
+                                    </li>
+                                    <li>
+                                        <PostDescription> {post.dot2}</PostDescription>
+                                    </li>
+                                    <li>
+                                        <PostDescription> {post.dot3}</PostDescription>
+                                    </li>
+                                </ul>
                                 <h4 className="button-link"><Link className="links" to={`/post/${post.id}`}>Read more</Link></h4>
                             </div>
                         </Postcard>
