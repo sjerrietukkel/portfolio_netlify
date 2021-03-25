@@ -1,7 +1,7 @@
 ---
 title: Cern ALICE
 dot1: Streamlining technical workflow
-dot2: "Dashboard design "
+dot2: Dashboard design
 dot3: UX Research
 description: Onderzoek en UX redesign  managementtool ALICE reactor
 author: Daniel van der Schuur
