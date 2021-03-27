@@ -2,7 +2,7 @@
 title: Huisarrest
 dot1: Online Escape Room
 dot2: UX & Development
-dot3: React Game omgeving, Custom Wordpress theme
+dot3: React Game Omgeving
 description: Concept & development online escape room
 author: Daniel van der Schuur
 opdrachtgever: Huisarrest
