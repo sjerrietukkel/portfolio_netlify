@@ -1,7 +1,7 @@
 ---
 title: Cropplay
 dot1: D3 & React
-dot2: Infographic depicting crops in West-Africa
+dot2: Interactive Inforgraphic
 dot3: UX Research
 description: Ontwikkeling interactieve infographic naar leefbaarheid UTZ boeren
 author: Daniel van der Schuur
