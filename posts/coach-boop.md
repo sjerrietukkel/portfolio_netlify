@@ -7,7 +7,7 @@ description: Concept & development online escape room
 author: Daniel van der Schuur
 opdrachtgever: Huisarrest
 date: 2021-03-11T22:37:12.225Z
-duration: 3 weken
+duration: 3 Maanden
 technology: Netlify React
 thumbnail: /images/huisarrest2.png
 mockup: /images/huisarrest2.png
