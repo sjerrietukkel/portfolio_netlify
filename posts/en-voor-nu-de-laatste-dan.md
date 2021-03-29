@@ -55,6 +55,23 @@ Verder heb ik de inzichten omgezet naar requirements waar het product aan moet v
 
 **Final Product**
 
+De verschillende features die ik heb uitgewerkt zijn gebaseerd op mijn onderzoeken en op de eerder uitgevoerde user tests. Hetgeen dat hier getoond wordt is het resultaat van een iteratief proces.
+
+* Klappie (Voice Interface)
+* Ouderweergave
+* Kinderweergave
+
+In de tekst worden de betrokken user requirements benoemd met \[req; XY].
 
 
-Features:
+
+![Feature Klappie](/images/feature_klappie.png "Feature Klappie")
+
+![Feature Ouders](/images/feature_ouders.png "Feature Ouders")
+
+![Feature Kinderen](/images/feature_kinderen.png "Feature Kinderen")
+
+
+
+Het volledige prototype is [hier](https://projects.invisionapp.com/share/YEZ4RAISKVF#/screens) te vinden\
+ww: kidsomgeving
