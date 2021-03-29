@@ -12,14 +12,22 @@ technology: UX
 thumbnail: /images/kpn-multiskill2.png
 mockup: /images/kpn-multiskill2.png
 ---
-Het probleem dat zich voordoet is dat de Kids omgeving binnen de KPN iTV app niet geoptimaliseerd is voor zowel de kinderen die niet kunnen lezen, en de ouders die wellicht bepaalde restricties willen opleggen op het kijkgedrag naar de kinderen.
+**Opdracht**
 
-Op het moment is de Kids omgeving een weergave van pre-selected content die op willekeurige manier wordt getoond naar de gebruiker. De gebruiker heeft geen mogelijkheid om door de content heen te zoeken, filteren of sorteren. Dit is vooral voor ouders een probleem.
+Binnen de KPN iTV afdeling wordt sinds 3 jaar agile gewerkt. De trekkers van deze transformatie (chapter coaches) concludeerde dat veel medewerkers teveel op 1 vakgebied gefocust zijn en wanneer er iemand uitvalt zijn/haar plek moeilijk te vervangen is. Dit is niet volgens de agile way of working. Hun initiële idee was het maken van verschillende DevOps profielen (Backend, Frontend, Systeem en Video) die allemaal voorzien waren van welke skills (denk aan CD/CI, Videostreams of databases) er voldaan moet worden op elk gewenst niveau.
 
-De Kids omgeving bestaat momenteel alleen in de tablet versie van de app. Momenteel wordt de app veelal mobiel gebruikt, maar dit komt mede door de eigenschappen van tablets. Ik ga onderzoek doen naar in welke context de app wordt gebruikt. Wat de eisen zijn vanuit kinderen die de app willen gebruiken, maar ook hoe ouders de content gepresenteerd willen hebben, en hoe zij deze willen manipuleren.
+Het probleem was echter dat dit boekje totaal niet leefde binnen de afdeling en door medewerkers werd ervaren als een checklist voor de Chapter Coaches om te zien wat voor werkniveau de medewerker momenteel bezit, terwijl het tegenovergestelde de bedoeling was.
 
-Ook is er de eis een om de kids omgeving naar de native smart-tv app van KPN te brengen. Deze app heeft van zichzelf uit al restricties in de vorm van navigatie dmv een afstandsbediening met pijltjestoetsen. Ook is de hoeveelheid ‘onbekende’ knoppen op de afstandbediening een risico voor ouders die hun tv instellingen een warm hart toedragen.
+Aan mij de taak om door middel van een digitale oplossing dit probleem te verhelpen en ervoor te zorgen dat het als een bruikbare, nuttige en positieve tool wordt beschouwd.
 
-Problemen waar kinderen die niet kunnen lezen tegen aan lopen is dat ze afhankelijk zijn van beeldtaal om bepaalde shows te vinden, wat kinderen wel heel goed weten is hoe de show heet of en kunnen deze dan ook relatief goed omschrijven. Ook herkennen ze direct de hoofdpersonages van de show. Hierdoor lijkt het mij interessant om te gaan kijken naar hoe de doelgroep omgaat met voice-controls en hier een oplossing voor ontwerpen.
 
-"Hoe kan ik de KPN iTV Kids omgeving binnen de tablet-app functioneel herontwerpen naar een omgeving binnen de smart tv app en er voor zorgen dat de gebruikservaring van kinderen van 3-6 jaar en dat van hun ouders, positief wordt beïnvloed, zodat zij de omgeving zullen gebruiken?"
+
+**Product**
+
+Het product dat hieruit is voort gekomen is de Multiskill DevOps Tool (aan de naam wordt nog gewerkt). Een tool waarmee medewerkers van de iTV afdeling (en later ook andere afdelingen binnen KPN) hun skills kunnen plotten op een de roos (een radarchart) en kunnen vergelijken met alle profielen binnen de afdeling.
+
+Gebruikers geven hun huidige level niet direct aan. Dit wordt gedaan binnen de wizard waar zij door middel van verschillende ja-nee vragen over een bepaalde hardskill een level krijgen toegewezen. Wanneer zij bepaalde vragen met nee beantwoorden wordt de subcategorie waar deze vraag over ging opgeslagen en deze wordt gebruikt als input voor het maken van een persoonlijk leerplan. Bij het persoonlijk leerplan geven gebruikers aan naar welk niveau ze binnen een bepaalde tijd willen groeien, en de tool geeft aan aan welke subcategorieën de gebruiker moet gaan werken om dit te voltooien. Idealiter suggereert de tool ook welke cursussen gevolgd kunnen worden.
+
+Gebruikers kunnen ook persoonlijke achievements als het behalen van een cursus, volgen van een training of het winnen van een hackathon bijhouden in het badge menu. Deze badges kunnen ook door andere mensen worden toegeschreven.
+
+En als laatste feature zijn de subskills van de hele afdeling zichtbaar. Gebruikers geven zelf aan of ze hier getoont willen worden, stemmen ze daar mee in worden ze als mentor op dat gebied beschouwt
