@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom"
-import { Nav, NavLink } from "./styled/Header"
+import { Nav } from "./styled/Header"
 import logo from '../logo.png'; // Tell webpack this JS file uses this image
 
 class Header extends React.Component {
