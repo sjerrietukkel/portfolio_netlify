@@ -104,6 +104,8 @@ a {
 
 .about {
   margin-bottom: 40px;
+  text-align: center;
+  margin: 50px 0px;
 }
 
 .about > h3, .about > p, .post-title-page, strong {
