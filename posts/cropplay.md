@@ -9,8 +9,8 @@ opdrachtgever: UTZ
 date: 2021-03-22T15:49:16.232Z
 duration: 8 Weken
 technology: Netlify React
-thumbnail: /images/rotato-snapshot5.png
-mockup: /images/rotato-snapshot5.png
+thumbnail: /images/utz2.png
+mockup: /images/utz2.png
 ---
 # Hey
 
