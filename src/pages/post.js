@@ -42,7 +42,7 @@ const Post = (props) => {
                         <small>{fetchedPost.description}</small>
                         <small>Link / Github</small>
                     </MetaBlock>     
-                    <PostContent>
+                    <PostContent className="markdown-content">
                         <Markdown source={fetchedPost.content} escapeHtml={false} />
                     </PostContent>   
                 </div>    

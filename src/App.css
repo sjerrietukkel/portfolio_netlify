@@ -47,3 +47,7 @@ div > .post_content {
 .post-mockup {
   width: 100%;
 }
+
+.markdown-content img {
+  max-width: 100%;
+}
