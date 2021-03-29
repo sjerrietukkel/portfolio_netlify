@@ -28,6 +28,10 @@ De webshop bestaat uit een custom wordpress thema i.c.m. advanced custom fields.
 
 Het concept zelf is een iteratief proces geweest tussen mij, een visual designer en de opdrachtgevers.
 
+
+
+![Bordspel](/images/bordspel.png "Bordspel")
+
 ![Huisarrest Opdracht](/images/huisarrest_screen.jpg "Huisarrest Opdracht")
 
 ![Huisarrest Game](/images/huisarrest_gameomgeving.jpg "Huisarrest Game")
