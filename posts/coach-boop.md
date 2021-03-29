@@ -9,8 +9,8 @@ opdrachtgever: Huisarrest
 date: 2021-03-11T22:37:12.225Z
 duration: 3 weken
 technology: Netlify React
-thumbnail: /images/rotato-snapshot3.png
-mockup: /images/rotato-snapshot3.png
+thumbnail: /images/huisarrest2.png
+mockup: /images/huisarrest2.png
 ---
 # Hey
 
