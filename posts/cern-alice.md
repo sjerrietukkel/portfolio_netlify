@@ -9,8 +9,8 @@ opdrachtgever: Cern ALICE
 date: 2021-03-23T15:48:18.034Z
 duration: 6 Weken
 technology: UX
-thumbnail: /images/rotato-snapshot4.png
-mockup: /images/rotato-snapshot4.png
+thumbnail: /images/cern2.png
+mockup: /images/cern2.png
 ---
 **Introduction**
 
