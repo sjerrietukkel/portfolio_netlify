@@ -54,9 +54,7 @@ In de tekst worden de betrokken user requirements benoemd met \[req; XY].
 
 ![Feature Kinderen](/images/feature_kinderen.png "Feature Kinderen")
 
-![Screenshow](/images/screen_show_itv.png "Screenshow")
-
-
+![Screenshow]( "Screenshow")
 
 Het volledige prototype is [hier](https://projects.invisionapp.com/share/YEZ4RAISKVF#/screens) te vinden\
 ww: kidsomgeving
