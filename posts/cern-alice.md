@@ -40,8 +40,6 @@ The manager of the bunch is the shift leader. This person is making sure everyon
 
 The current system is an ux nightmare. One of our challenges was to research how the user wanted/needed the data to be visualised.
 
-
-
 ![Logbook old](/images/logbook_old.png "Logbook old")
 
   Context
@@ -57,6 +55,8 @@ We can’t/don’t understand the vast majority of the data from the previous sy
 * Create a new log.
 * Check incoming runs.
 * Controle others’ logs.
+
+![Customer Journey CERN](/images/customerjourney_cern.png "Customer Journey CERN")
 
 **Design Challenge**
 
@@ -100,14 +100,12 @@ We also implemented a notification system which allows a shifter to keep track o
 
 Below you can see how the application will be used by shifters, to see the entire concept [click here](https://invis.io/K4SP8RKVHFM#/370809877_Important_Shift_Previous)
 
-   Prototype
-
 [Invision Prototype](https://invis.io/K4SP8RKVHFM#/370809877_Important_Shift_Previous)
+
+![New Log](/images/micro_interaction_createnewlog.gif "New Log")
+
+![Notification](/images/notification.gif "Notification")
 
 **MVP**
 
 [Github Repository](https://github.com/dorusth/Jiskefet) created by our developers and will be used as a base for the new app at CERN.
-
-**Conclusion**
-
-What you read was a summary of the work we've done during 6 weeks. Due to the small timeframe we weren't able to fully work out the features as much as we wanted to. The concept has yet to be tested on shifters/ex-shifters.
