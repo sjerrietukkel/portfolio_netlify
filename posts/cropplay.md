@@ -28,6 +28,10 @@ We hebben ervoor gekozen om te gaan werken met het Poverty Probability Index (PP
 
 Iedere boer heeft dus een PPI score toegewezen gekregen, deze hebben wij gebruikt om de percentielen te berekenen om zo het land en gewassen te kunnen verdelen.
 
+
+
+![](/images/utz-end.png)
+
 **Product**
 
 [Het interactieve eindproduct](https://sjerrietukkel.github.io/utz/)
