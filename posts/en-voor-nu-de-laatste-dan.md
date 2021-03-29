@@ -28,18 +28,7 @@ Ook heb ik gekeken naar hoe andere content providers en concurrenten met deze sp
 "Hoe kan ik de KPN iTV Kids omgeving binnen de tablet-app functioneel herontwerpen naar een omgeving binnen de smart tv app en er voor zorgen dat de gebruikservaring van kinderen van 3-6 jaar en dat van hun ouders, positief wordt beïnvloed, zodat zij de omgeving zullen gebruiken?" 
 
 \
-**Onderzoek**
-
-Toegepaste onderzoeksmethodes:
-
-* Interviews
-* User tests
-* Co-creation
-* Peer review
-* Deskresearch
-* Observation
-* Pattern Research
-
+**Onderzoek**\
 \
 De inzichten die ik heb verzameld heb ik gebundeld in een customer journey, om te bekijken waar de pijnpunten binnen het proces liggen. Dit heb ik zowel gedaan voor traditioneel tv kijken (vanuit een context en gebruikersperspectief) en de bestaande tablet versie van de app.
 
@@ -48,10 +37,6 @@ De inzichten die ik heb verzameld heb ik gebundeld in een customer journey, om t
 Verder heb ik de inzichten omgezet naar requirements waar het product aan moet voldoen. Die zie je hieronder. 
 
 ![Requirement List](/images/requirement_list.png "Requirement List")
-
-
-
-
 
 **Final Product**
 
@@ -63,15 +48,11 @@ De verschillende features die ik heb uitgewerkt zijn gebaseerd op mijn onderzoek
 
 In de tekst worden de betrokken user requirements benoemd met \[req; XY].
 
-
-
 ![Feature Klappie](/images/feature_klappie.png "Feature Klappie")
 
 ![Feature Ouders](/images/feature_ouders.png "Feature Ouders")
 
 ![Feature Kinderen](/images/feature_kinderen.png "Feature Kinderen")
-
-
 
 Het volledige prototype is [hier](https://projects.invisionapp.com/share/YEZ4RAISKVF#/screens) te vinden\
 ww: kidsomgeving
