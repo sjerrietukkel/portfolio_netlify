@@ -40,6 +40,10 @@ The manager of the bunch is the shift leader. This person is making sure everyon
 
 The current system is an ux nightmare. One of our challenges was to research how the user wanted/needed the data to be visualised.
 
+
+
+![Logbook old](/images/logbook_old.png "Logbook old")
+
   Context
 
 After reading a couple of blogs and interviews we concluded that the stress that comes with being in a control room is pretty significant. People reported they didn’t know where to look for which information since they are looking at 4 monitors at the same time.
@@ -54,13 +58,9 @@ We can’t/don’t understand the vast majority of the data from the previous sy
 * Check incoming runs.
 * Controle others’ logs.
 
-
-
 **Design Challenge**
 
   "HOW CAN WE MAKE A SHIFT EASIER FOR A CERN SHIFTER BY SUPPLYING HIM/HER WITH THE TOOLS NEEDED AT THE RIGHT TIME?”
-
-
 
 **Data Clustering**
 
@@ -87,8 +87,6 @@ I thought this could be done better. I started out with requesting actual log da
 * Installation
 * Update
 * Other
-
-
 
 **Screens & New Implementations**
 
