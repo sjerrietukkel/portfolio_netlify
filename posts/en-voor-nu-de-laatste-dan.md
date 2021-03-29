@@ -9,8 +9,8 @@ opdrachtgever: KPN
 date: 2021-03-25T15:13:46.535Z
 duration: 6 Maanden
 technology: UX
-thumbnail: /images/rotato-snapshot.png
-mockup: /images/rotato-snapshot.png
+thumbnail: /images/tv-kpn.png
+mockup: /images/tv-kpn.png
 ---
 Het probleem dat zich voordoet is dat de Kids omgeving binnen de KPN iTV app niet geoptimaliseerd is voor zowel de kinderen die niet kunnen lezen, en de ouders die wellicht bepaalde restricties willen opleggen op het kijkgedrag naar de kinderen.
 
