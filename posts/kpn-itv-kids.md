@@ -1,5 +1,5 @@
 ---
-title: KPN Multiskill Tool
+title: KPN Multiskill
 dot1: Increasing Agile workflow
 dot2: Dashboard design
 dot3: UX Research
