@@ -12,14 +12,49 @@ technology: UX
 thumbnail: /images/tv-kpn.png
 mockup: /images/tv-kpn.png
 ---
-Het probleem dat zich voordoet is dat de Kids omgeving binnen de KPN iTV app niet geoptimaliseerd is voor zowel de kinderen die niet kunnen lezen, en de ouders die wellicht bepaalde restricties willen opleggen op het kijkgedrag naar de kinderen.
+**Introductie**
 
-Op het moment is de Kids omgeving een weergave van pre-selected content die op willekeurige manier wordt getoond naar de gebruiker. De gebruiker heeft geen mogelijkheid om door de content heen te zoeken, filteren of sorteren. Dit is vooral voor ouders een probleem.
+De casus omvat de huidige KPN Kids omgeving (beschikbaar op de tabletversies van de app) naar een Native Smart-TV te brengen, en te kijken naar de mogelijkheden van een voice interface.
 
-De Kids omgeving bestaat momenteel alleen in de tablet versie van de app. Momenteel wordt de app veelal mobiel gebruikt, maar dit komt mede door de eigenschappen van tablets. Ik ga onderzoek doen naar in welke context de app wordt gebruikt. Wat de eisen zijn vanuit kinderen die de app willen gebruiken, maar ook hoe ouders de content gepresenteerd willen hebben, en hoe zij deze willen manipuleren.
+Het probleem dat zich voordoet is dat de Kids omgeving binnen de KPN iTV app niet geoptimaliseerd is voor zowel de kinderen die niet kunnen lezen, en de ouders die wellicht bepaalde restricties willen opleggen op het kijkgedrag naar de kinderen. 
 
-Ook is er de eis een om de kids omgeving naar de native smart-tv app van KPN te brengen. Deze app heeft van zichzelf uit al restricties in de vorm van navigatie dmv een afstandsbediening met pijltjestoetsen. Ook is de hoeveelheid ‘onbekende’ knoppen op de afstandbediening een risico voor ouders die hun tv instellingen een warm hart toedragen.
+Er bestond al een app voor de tablet. Om een goede baseline te krijgen ben ik begonnen met het onderzoeken van welke componenten en flows er al bestonden in de tablet variant, dit heb ik in beeld gekregen d.m.v. user tests en interviews met de doelgroep.Ik heb verder gekeken naar hoe kinderen (0-6 jaar) naar (smart-)televisies. Dit heb ik gedaan door middel van de fly on the wall en interview methodes, met als eindresultaat een inzicht van de context waarbinnen de probleemstelling zich afspeelt. 
 
-Problemen waar kinderen die niet kunnen lezen tegen aan lopen is dat ze afhankelijk zijn van beeldtaal om bepaalde shows te vinden, wat kinderen wel heel goed weten is hoe de show heet of en kunnen deze dan ook relatief goed omschrijven. Ook herkennen ze direct de hoofdpersonages van de show. Hierdoor lijkt het mij interessant om te gaan kijken naar hoe de doelgroep omgaat met voice-controls en hier een oplossing voor ontwerpen.
+Ook heb ik gekeken naar hoe andere content providers en concurrenten met deze specifieke doelgroep om. De patterns en functionaliteiten die bruikbaar leken heb ik meegenomen binnen mijn ontwerpen en bevestigd. 
 
-"Hoe kan ik de KPN iTV Kids omgeving binnen de tablet-app functioneel herontwerpen naar een omgeving binnen de smart tv app en er voor zorgen dat de gebruikservaring van kinderen van 3-6 jaar en dat van hun ouders, positief wordt beïnvloed, zodat zij de omgeving zullen gebruiken?"
+\
+**Design Challenge** 
+
+"Hoe kan ik de KPN iTV Kids omgeving binnen de tablet-app functioneel herontwerpen naar een omgeving binnen de smart tv app en er voor zorgen dat de gebruikservaring van kinderen van 3-6 jaar en dat van hun ouders, positief wordt beïnvloed, zodat zij de omgeving zullen gebruiken?" 
+
+\
+**Onderzoek**
+
+Toegepaste onderzoeksmethodes:
+
+* Interviews
+* User tests
+* Co-creation
+* Peer review
+* Deskresearch
+* Observation
+* Pattern Research
+
+\
+De inzichten die ik heb verzameld heb ik gebundeld in een customer journey, om te bekijken waar de pijnpunten binnen het proces liggen. Dit heb ik zowel gedaan voor traditioneel tv kijken (vanuit een context en gebruikersperspectief) en de bestaande tablet versie van de app.
+
+![Customer Journey Map](/images/customer-journey-map_itv_combined_.png "Customer Journey Map")
+
+Verder heb ik de inzichten omgezet naar requirements waar het product aan moet voldoen. Die zie je hieronder. 
+
+![Requirement List](/images/requirement_list.png "Requirement List")
+
+
+
+
+
+**Final Product**
+
+
+
+Features:
