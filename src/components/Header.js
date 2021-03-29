@@ -6,7 +6,7 @@ import logo from '../logo.png'; // Tell webpack this JS file uses this image
 class Header extends React.Component {
     render () {
         return(
-            <Nav className="navbar navbar-default sticky-top">
+            <Nav className="navbar navbar-default ">
                 <div className="container-fluid d-flex justify-content-between nav-max">
                     <div>
                         <Link className="links" to="/"><img src={logo} alt="Logo" className="logo" /></Link>

@@ -106,7 +106,7 @@ a {
   margin-bottom: 40px;
 }
 
-.about > h3, .about > p {
+.about > h3, .about > p, .post-title-page, strong {
   color: #181b31;
 }
 

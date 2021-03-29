@@ -35,9 +35,8 @@ const Post = (props) => {
             <div className="post d-flex  justify-content-center ">
                 <div  className=" d-flex flex-column">
                     <MetaBlock className=" d-flex flex-column">
-                        <h2>{fetchedPost.title}</h2>
-                        <small>Published on {fetchedPost.date} by {fetchedPost.author}</small>
-                        <img className="thumbnail" width={80} src={fetchedPost.mockup} alt="Mockup"/>
+                        <h2 className="post-title-page">{fetchedPost.title}</h2>
+                        <img className="post-mockup" src={fetchedPost.mockup} alt="Mockup"/>
                         <small>{fetchedPost.opdrachtgever}</small>
                         <small>{fetchedPost.duration}</small>
                         <small>{fetchedPost.description}</small>

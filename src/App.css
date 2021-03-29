@@ -43,3 +43,7 @@
 div > .post_content {
   color: black;
 }
+
+.post-mockup {
+  width: 100%;
+}

@@ -14,6 +14,9 @@ export const PostContent = styled.div`
     width: 95vw;
     color: black;
     p, h2, h3, small {
-        color: black;
+        color: #181b31;
+    }
+    li {
+        color: #181b31;
     }
 `;
