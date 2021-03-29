@@ -20,8 +20,6 @@ Het probleem was echter dat dit boekje totaal niet leefde binnen de afdeling en 
 
 Aan mij de taak om door middel van een digitale oplossing dit probleem te verhelpen en ervoor te zorgen dat het als een bruikbare, nuttige en positieve tool wordt beschouwd.
 
-
-
 **Product**
 
 Het product dat hieruit is voort gekomen is de Multiskill DevOps Tool (aan de naam wordt nog gewerkt). Een tool waarmee medewerkers van de iTV afdeling (en later ook andere afdelingen binnen KPN) hun skills kunnen plotten op een de roos (een radarchart) en kunnen vergelijken met alle profielen binnen de afdeling.
@@ -30,4 +28,12 @@ Gebruikers geven hun huidige level niet direct aan. Dit wordt gedaan binnen de w
 
 Gebruikers kunnen ook persoonlijke achievements als het behalen van een cursus, volgen van een training of het winnen van een hackathon bijhouden in het badge menu. Deze badges kunnen ook door andere mensen worden toegeschreven.
 
-En als laatste feature zijn de subskills van de hele afdeling zichtbaar. Gebruikers geven zelf aan of ze hier getoont willen worden, stemmen ze daar mee in worden ze als mentor op dat gebied beschouwt
+En als laatste feature zijn de subskills van de hele afdeling zichtbaar. Gebruikers geven zelf aan of ze hier getoont willen worden, stemmen ze daar mee in worden ze als mentor op dat gebied beschouwt.
+
+
+
+![Multiskill screens](/images/multiskill0.png "Multiskill screens")
+
+![Multiskill screens](/images/multiskill1.png "Multiskill screens")
+
+![Multiskill screens](/images/multiskill3.png "Multiskill screens")
